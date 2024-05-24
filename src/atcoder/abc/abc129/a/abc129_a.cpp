@@ -2,11 +2,9 @@
 using namespace std;
 
 int main() {
-    int N;
-    string S;
-    cin >> N >> S;
-
-    // 解説わからん
+    int p, q, r;
+    cin >> p >> q >> r;
+    cout << min({p+q, q+r, r+p});
 
     return 0;
 }

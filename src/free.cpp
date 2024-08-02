@@ -32,6 +32,10 @@ int main() {
     }
     cout << endl;
 
+    cout << "--------------------" << endl;
+    map<int, bool> m;
+    m[0] = true;
+    cout << m[9] << endl;
 
     return 0;
 }
